@@ -2,7 +2,7 @@
 @import url(https://jaywilson7.github.io/BorderShapes/Source/BorderShapes.css);
 
 :root {
-	--mentioncolor: 123,123,123;			/* yellow - 		default: 250,166,26	 - 	hex: #faa61a */
+	--mentioncolor: 125,125,125;			/* yellow - 		default: 250,166,26	 - 	hex: #faa61a */
 
 	--textbrightest: 255,255,255;			/* white - 		default: 255,255,255	 - 	hex: #ffffff */
 	--textbrighter: 222,222,222;			/* darker white - 	default: 220,221,222	 - 	hex: #dcddde */
@@ -97,6 +97,7 @@
 	box-shadow: none;
 }
 
+/*and just in case*/
 * {
 	box-shadow: none;
 }
@@ -154,3 +155,33 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 
 /* ~~~~		other		~~~~ */
 
+/*plugin settings tabs*/
+.item-PXvHYJ[data-item-id=pc-updater] {
+    height: 4.65rem;
+    align-items: unset !important;
+}
+
+.item-PXvHYJ[data-item-id=pc-updater]:hover {
+  background: linear-gradient(180deg,
+    var(--background-modifier-hover) 0%, var(--background-modifier-hover) 43%,
+    var(--background-secondary) 43.01%, var(--background-secondary) 100%) !important;
+}
+.item-PXvHYJ[data-item-id=pc-updater][class*=selected] {
+  background: linear-gradient(180deg, 
+    var(--background-modifier-selected) 0%, var(--background-modifier-selected) 43%,
+    var(--background-secondary) 43.01%, var(--background-secondary) 100%) !important;
+}
+.item-PXvHYJ[data-item-id=pc-updater]:after {
+  position: absolute;
+  margin-top: 2.19rem;
+
+  border-top: 1px solid var(--background-modifier-accent);
+  line-height: 2.6rem;    
+  width: 89.5%;
+
+  content: "Plugin Settings";
+    color: rgb(159, 159, 159);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 12px;
+}
