@@ -172,6 +172,7 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 
 /* ~~~~		other		~~~~ */
 
-.emojiResults-jAeuVN {
+.emojiResults-jAeuVN,
+.container-Qj4uIL {
 	display: none !important;
 }
