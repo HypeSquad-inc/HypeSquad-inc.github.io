@@ -81,14 +81,7 @@
 	--borders-color-activity: #6c82cf; /*Borders color for elements on activity background. Default - #6c82cf*/
 }
 
-/* ~~~~		SQUARES STATUS PATCHED		~~~~ */
 
-#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile]:after {
-	-webkit-mask-size: 15%;
-	top: 83%;
-	left: 88%;
-	background-color: #f33;
-}
 
 /* ~~~~		MORE DAMN PATCHES		~~~~ */
 
