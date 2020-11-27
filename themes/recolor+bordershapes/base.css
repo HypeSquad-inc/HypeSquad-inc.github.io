@@ -157,31 +157,31 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 
 /*plugin settings tabs*/
 .item-PXvHYJ[data-item-id=pc-updater] {
-    height: 4.65rem;
-    align-items: unset !important;
+	height: 4.65rem;
+	align-items: unset !important;
 }
 
 .item-PXvHYJ[data-item-id=pc-updater]:hover {
-  background: linear-gradient(180deg,
-    var(--background-modifier-hover) 0%, var(--background-modifier-hover) 43%,
-    var(--background-secondary) 43.01%, var(--background-secondary) 100%) !important;
+	background: linear-gradient(180deg,
+		var(--background-modifier-hover) 0%, var(--background-modifier-hover) 43%,
+		var(--background-secondary) 43.01%, var(--background-secondary) 100%) !important;
 }
 .item-PXvHYJ[data-item-id=pc-updater][class*=selected] {
-  background: linear-gradient(180deg, 
-    var(--background-modifier-selected) 0%, var(--background-modifier-selected) 43%,
-    var(--background-secondary) 43.01%, var(--background-secondary) 100%) !important;
+	background: linear-gradient(180deg, 
+		var(--background-modifier-selected) 0%, var(--background-modifier-selected) 43%,
+		var(--background-secondary) 43.01%, var(--background-secondary) 100%) !important;
 }
 .item-PXvHYJ[data-item-id=pc-updater]:after {
-  position: absolute;
-  margin-top: 2.19rem;
+	position: absolute;
+	margin-top: 2.19rem;
 
-  border-top: 1px solid var(--background-modifier-accent);
-  line-height: 2.6rem;    
-  width: 89.5%;
+	border-top: 1px solid var(--background-modifier-accent);
+	line-height: 2.6rem;    
+	width: 89.5%;
 
-  content: "Plugin Settings";
-    color: rgb(159, 159, 159);
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 12px;
+	content: "Plugin Settings";
+		color: rgb(159, 159, 159);
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 12px;
 }
