@@ -119,6 +119,10 @@
 	box-shadow: none;
 }
 
+* {
+	box-shadow: none;
+}
+
 /* ~~~~		kewl servers		~~~~ */
 
 [src="https://cdn.discordapp.com/icons/740478947804053596/2e452b12e67eafc171eb1dd155d354bc.webp?size=128"] {
@@ -172,21 +176,3 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 
 /* ~~~~		other		~~~~ */
 
-@import url(https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css);
-.wordmark-2iDDfm:after {
-    content: "DOSCORD";
-    font-size: 14px;
-    font-weight: 700;
-    white-space: nowrap;
-    font-family: "Discord";
-}
-
-.wordmark-2iDDfm svg {
-  display:none;
-}
-
-.wordmark-2iDDfm {
-    max-width:90vw;
-    overflow:hidden;
-    text-overflow:ellipsis;
-}
