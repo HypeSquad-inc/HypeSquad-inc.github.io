@@ -1,0 +1,7 @@
+@import url(https://HypeSquad-inc.github.io/themes/recolor+bordershapes/base.css);
+
+
+:root {
+	--accentcolor: 192,192,192;		/*	blurple	- 	default: 114,137,218	- 	hex: #7289da */
+	--linkcolor: 192,192,192;			/*	link	- 	default: 0,176,244	- 	hex: #00b0f4 */
+}
