@@ -185,3 +185,8 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 		font-weight: 700;
 		font-size: 12px;
 }
+
+/*better formatting redux*/
+#bfredux::before {
+	background-color: black;
+}
