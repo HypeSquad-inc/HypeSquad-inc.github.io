@@ -22,8 +22,7 @@
 	--borders-buttons-1: 0px; /*Border shapes for rounded buttons. 20px for circle, 0px for square*/
 	--borders-buttons-2: 0px; /*Border shapes for circle buttons. 20px for circle, 0px for square*/
 	--borders-switches: 0px; /*Border shapes for switches. 15px for circle, 0px for square*/
-	--borders-checkboxes-1: 0px; /*Border shapes for rounded checkboxes. 15px for circle, 0px for square*/
-	--borders-checkboxes-2: 0px; /*Border shapes for circle checkboxes. 10px for circle, 0px for square*/
+	--borders-checkboxes: 0px; /*Border shapes for rounded checkboxes. 15px for circle, 0px for square*/
 	--borders-slider-bars: 0px; /*Border shapes for slider bars. 5px for circle, 0px for square*/
 	--borders-slider-grabbers-1: 0px; /*Border shapes for rounded slider grabbers. 5px for circle, 0px for square*/
 	--borders-slider-grabbers-2: 0px; /*Border shapes for circle slider grabbers. 8px for circle, 0px for square*/
