@@ -1,1 +1,60 @@
+/* CSS Snippets used by recolor+bordershapes sorted with a TOC (dont want things to get messy and hard to find)*/
 
+/*	Reference	
+
+A: support/addons for plugins/uneffected-areas go here
+B: Things such as making specific people/servers have something others dont go here
+C: Cool custom shit that effects everyone goes here
+*/
+
+/*	Table of contents	
+A.
+A1: Powercord plugin settings separator.
+A2: Removes the covering that appears when you have slow/loose connection or switch accounts and alerts you in the bottom right.
+
+*/
+
+/*	A	*/
+/* A1 */
+
+/* A2*/
+.container-16j22k {
+  background: transparent;
+  pointer-events: none;
+}
+.container-16j22k * {
+  display: none;
+}
+.container-16j22k::before {
+  content: 'You\'ve either gone offline, or are switching accounts';
+  display: block;
+  bottom: 24px;
+  right: 24px;
+  position: absolute;
+  padding: 8px 16px;
+  background-color: rgb(var(--accentcolor));
+  border-radius: 0px;
+  color: #fff;
+}
+
+/**/
+
+/**/
+
+/**/
+
+/**/
+
+/**/
+
+/**/
+
+/**/
+
+/**/
+
+/**/
+
+/**/
+
+/**/
