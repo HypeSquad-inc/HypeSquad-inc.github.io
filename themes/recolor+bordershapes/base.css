@@ -143,6 +143,22 @@
 	-webkit-text-fill-color: transparent;
 }
 
+.message-2qnXI6[data-author-id="364250589552705547"] .username-1A8OIy {
+	background: linear-gradient( 
+		60deg, 
+		hsl(224, 85%, 66%), 
+		hsl(269, 85%, 66%), 
+		hsl(314, 85%, 66%), 
+		hsl(359, 85%, 66%), 
+		hsl(44, 85%, 66%), 
+		hsl(89, 85%, 66%), 
+		hsl(134, 85%, 66%), 
+		hsl(179, 85%, 66%) 
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
 /* ~~~~		DEWATERMARK		~~~~ */
 
 html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E > div.app-2rEoOp > div.layers-3iHuyZ.layers-3q14ss > div.layer-3QrUeG.baseLayer-35bLyl + div.layer-3QrUeG > div.standardSidebarView-3F1I7i > div.sidebarRegion-VFTUkN > div.sidebarRegionScroller-3MXcoP.thin-1ybCId.scrollerBase-289Jih.fade-2kXiP2 > nav.sidebar-CFHs9e > div.side-8zPYf6 > div.info-1VyQPT::after {
