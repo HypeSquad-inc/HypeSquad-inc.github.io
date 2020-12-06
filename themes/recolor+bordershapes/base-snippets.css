@@ -93,6 +93,15 @@ notsoRGBbase
 
 /*	B	*/
 /* B1 */
+.avatar-1BDn8e.clickable-1bVtEA { 
+    filter: drop-shadow(0 0 4px);
+    color: white;
+}
+
+.avatar-1BDn8e:hover.clickable-1bVtEA:hover {
+    filter: drop-shadow(0 0 8px);
+    color: rgb(var(--accentcolor));
+}
 
 /**/
 
