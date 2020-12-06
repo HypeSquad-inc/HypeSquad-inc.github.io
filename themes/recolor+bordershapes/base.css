@@ -19,63 +19,60 @@
 	--backgroundtertiary: 0,0,0;			/* bright black	 - 	default: 32,34,37	 - 	hex: #202225 */
 	--backgroundfloating: 0,0,0;			/* brighter black - 	default: 24,25,28	 - 	hex: #18191c */
 
-	--borders-buttons-1: 0px; /*Border shapes for rounded buttons. 20px for circle, 0px for square*/
-	--borders-buttons-2: 0px; /*Border shapes for circle buttons. 20px for circle, 0px for square*/
+	--borders-buttons-rounded: 0px; /*Border shapes for rounded buttons. 20px for circle, 0px for square*/
+	--borders-buttons-circle: 0px; /*Border shapes for circle buttons. 20px for circle, 0px for square*/
 	--borders-switches: 0px; /*Border shapes for switches. 15px for circle, 0px for square*/
-	--borders-checkboxes: 0px; /*Border shapes for rounded checkboxes. 15px for circle, 0px for square*/
+	--borders-checkboxes: 0%; /*Border shapes for checkboxes. 50% for circle, 0% for square*/
 	--borders-slider-bars: 0px; /*Border shapes for slider bars. 5px for circle, 0px for square*/
-	--borders-slider-grabbers-1: 0px; /*Border shapes for rounded slider grabbers. 5px for circle, 0px for square*/
-	--borders-slider-grabbers-2: 0px; /*Border shapes for circle slider grabbers. 8px for circle, 0px for square*/
+	--borders-slider-grabbers: 0px; /*Border shapes for slider grabbers. 8px for circle, 0px for square*/
 	--borders-progress-bars: 0px; /*Border shapes for progress bars. 5px for circle, 0px for square*/
 	--borders-inputs: 0px; /*Border shapes for inputs. 25px for circle, 0px for square*/
 	--borders-contexts: 0px; /*Border shapes for context menus. 25px for circle, 0px for square*/
 	--borders-popouts: 0px; /*Border shapes for popouts. 25px for circle, 0px for square*/
 	--borders-modals: 0px; /*Border shapes for modals. 25px for circle, 0px for square*/
-	--borders-cards: 0px; /*Border shapes for cards. 25px for circle, 0px for square*/
-	--borders-icons: 0%; /*Border shapes for icons and indicators. 50% for circle, 0% for square*/
+	--borders-cards: 0px; /*Border shapes for cards and banners. 25px for circle, 0px for square*/
 	--borders-previews: 0px; /*Border shapes for previews. 25px for circle, 0px for square*/
-	--borders-labels-1: 0px; /*Border shapes for large labels. 15px for circle, 0px for square*/
-	--borders-labels-2: 0px; /*Border shapes for small labels. 10px for circle, 0px for square*/
 	--borders-sidebar-and-notices: 0px; /*Shape for top left sidebar and notices border. 25px for circle, 0px for square*/
 	--borders-servers: 0%; /*Border shapes for server icons. 50% for circle, 0% for square*/
 	--borders-avatars: 0%; /*Border shapes for avatars. 50% for circle, 0% for square*/
-
-	--borders-pills: 0px; /*Border shapes for unread badges and selected server pill. 5px for circle, 0px for square*/
+	--borders-icons: 0%; /*Border shapes for icons. 50% for circle, 0% for square*/
+	--borders-labels: 0px; /*Border shapes for text and number indicators. 15px for circle, 0px for square*/
+	--borders-pills: 0px; /*Border shapes for unread badges and selected server pills. 5px for circle, 0px for square*/
+	--borders-lines: 0px; /*Border shapes for lines when you drag categories or channels. 2px for circle, 0px for square*/
 	--borders-role-outlines: 0px; /*Border shapes for roles outlines. 10px for circle, 0px for square*/
 	--borders-role-dots: 0px; /*Border shapes for roles dots. 10px for circle, 0px for square*/
 	--borders-tags: 0px; /*Border shapes for tags. 10px for circle, 0px for square*/
-	--borders-lines: 0px; /*Border shapes for lines when you drag categories or channels. 2px for circle, 0px for square*/
 	--borders-messages: 0px; /*Border shapes for hovered or highlighted messages. 25px for circle, 0px for square*/
 	--borders-files: 0px; /*Border shapes for images, videos, audios and gifs. 25px for circle, 0px for square*/
 	--borders-mentions: 0px; /*Border shapes for mentions. 10px for circle, 0px for square*/
 	--borders-reactions: 0px; /*Border shapes for reactions. 10px for circle, 0px for square*/
 	--borders-codes: 0px; /*Border shapes for codes and codeblocks. 10px for circle, 0px for square*/
 	--borders-embeds: 0px; /*Border shapes for embeds. 25px for circle, 0px for square*/
-	--borders-replies: 0px; /*Border shapes for replies lines. 15px for circle, 0px for square*/
+	--borders-replies: 0px; /*Shape for top left replies border. 15px for circle, 0px for square*/
 	--borders-quotes: 0px; /*Border shapes for quote icon. 2px for circle, 0px for square*/
 	--borders-spoilers: 0px; /*Border shapes for spoilers. 10px for circle, 0px for square*/
 	--borders-toasts: 0px; /*Border shapes for toasts. 25px for circle, 0px for square*/
 	--borders-tooltips: 0px; /*Border shapes for tooltips. 25px for circle, 0px for square*/
 	--borders-scrollbars: 0px; /*Border shapes for scrollbars. 10px for circle, 0px for square*/
 	--borders-editors: 0px; /*Border shapes for editors workspace. 25px for circle, 0px for square*/
-
-	--status-width-1: 2px; /*Border width for large avatars status. Default - 2px*/
-	--status-width-2: 2px; /*Border width for small avatars status. Default - 2px*/
-	--status-spacing-1: 0px; /*Spacing between statuses and large avatars. Default - 1px*/
-	--status-spacing-2: 0px; /*Spacing between statuses and small avatars. Default - 1px*/
-	--status-opacity-1: 0.0; /*Background opacity for "Online via Mobile" statuses. Default - 0.6*/
-	--status-opacity-2: 0.4; /*Background opacity for "Typing" indicators. Default - 0.6*/
+	
+	--status-width-large: 2px; /*Border width for large avatars status. Default - 2px*/
+	--status-width-small: 2px; /*Border width for small avatars status. Default - 2px*/
+	--status-spacing-large: 0px; /*Spacing between statuses and large avatars. Default - 1px*/
+	--status-spacing-small: 0px; /*Spacing between statuses and small avatars. Default - 1px*/
+	--status-opacity-mobile: 0.0; /*Background opacity for "Online via Mobile" statuses. Default - 0.6*/
+	--status-opacity-typing: 0.4; /*Background opacity for "Typing" indicators. Default - 0.6*/
 	--status-color-online: #43b581; /*Color for "Online" statuses. Default - #43b581*/
 	--status-color-idle: #faa61a; /*Color for "Idle" statuses. Default - #faa61a*/
 	--status-color-dnd: #f04747; /*Color for "Do Not Disturb" statuses. Default - #f04747*/
 	--status-color-streaming: #593695; /*Color for "Streaming" statuses. Default - #593695*/
 	--status-color-offline: #747f8d; /*Color for "Offline" statuses. Default - #747f8d*/
-	--status-color-invisible: #747f8d; /*Color for "Invisible" statuses. This only works for your status. Default - #747f8d*/
 	--status-mobile-icon-display: visible; /*Display mode for "Online via Mobile" status icon. visible to show, hidden to hide*/
 	--borders-color-primary: var(--background-primary); /*Borders color for elements on primary background. Default - var(--background-primary)*/
 	--borders-color-secondary: var(--background-secondary); /*Borders color for elements on secondary background. Default - var(--background-secondary)*/
 	--borders-color-tertiary: var(--background-tertiary); /*Borders color for elements on tertiary background. Default - var(--background-tertiary)*/
 	--borders-color-floating: var(--background-floating); /*Borders color for elements on floating background. Default - var(--background-floating)*/
+	--borders-color-textarea: var(--channeltextarea-background); /*Borders color for elements on channeltextarea background. Default - var(--channeltextarea-background)*/
 	--borders-color-special: #000; /*Borders color for elements on special background. Default - #000*/
 	--borders-color-activity: #6c82cf; /*Borders color for elements on activity background. Default - #6c82cf*/
 }
@@ -91,14 +88,14 @@
 
 /* ~~~~		MORE DAMN PATCHES		~~~~ */
 
-#app-mount .lowerBadge-29hYVK,
-#app-mount .upperBadge-2XnnGB {
-	box-shadow: none;
+#app-mount .lowerBadge-29hYVK .base-PmTxvP,
+#app-mount  .upperBadge-2XnnGB .base-PmTxvP {
+	box-shadow: none !important;
 }
 
 /*and just in case*/
 * {
-	box-shadow: none;
+	box-shadow: none !important;
 }
 
 /* ~~~~		kewl servers		~~~~ */
