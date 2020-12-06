@@ -1,23 +1,50 @@
 /* CSS Snippets used by recolor+bordershapes sorted with a TOC (dont want things to get messy and hard to find)*/
 
-/*	Reference	
+/*	Reference
 
-A: support/addons for plugins/uneffected-areas go here
-B: Things such as making specific people/servers have something others dont go here
-C: Cool custom shit that effects everyone goes here
+A: support/addons for plugins/uneffected-areas go here.
+B: Cool custom shit that effects everyone goes here.
+C: Things such as making specific people/servers have something others dont go here.
 */
 
-/*	Table of contents	
+/*	Table of contents
 A.
 A1: Powercord plugin settings separator.
 A2: Removes the covering that appears when you have slow/loose connection or switch accounts and alerts you in the bottom right.
+A3: Better formatting rdux box.
 
 */
 
 /*	A	*/
 /* A1 */
+.item-PXvHYJ[data-item-id=pc-updater] {
+	height: 4.65rem;
+	align-items: unset !important;
+}
+.item-PXvHYJ[data-item-id=pc-updater]:hover {
+	background: linear-gradient(180deg,
+		var(--background-modifier-hover) 0%, var(--background-modifier-hover) 43%,
+		var(--background-secondary) 43.01%, var(--background-secondary) 100%) !important;
+}
+.item-PXvHYJ[data-item-id=pc-updater][class*=selected] {
+	background: linear-gradient(180deg, 
+		var(--background-modifier-selected) 0%, var(--background-modifier-selected) 43%,
+		var(--background-secondary) 43.01%, var(--background-secondary) 100%) !important;
+}
+.item-PXvHYJ[data-item-id=pc-updater]:after {
+	position: absolute;
+	margin-top: 2.19rem;
+	border-top: 1px solid var(--background-modifier-accent);
+	line-height: 2.6rem;    
+	width: 89.5%;
+	content: "Plugin Settings";
+		color: rgb(159, 159, 159);
+		text-transform: uppercase;
+		font-weight: 700;
+		font-size: 12px;
+}
 
-/* A2*/
+/* A2 */
 .container-16j22k {
   background: transparent;
   pointer-events: none;
@@ -37,7 +64,10 @@ A2: Removes the covering that appears when you have slow/loose connection or swi
   color: #fff;
 }
 
-/**/
+/* A3 */
+#bfredux::before {
+	background-color: black;
+}
 
 /**/
 
