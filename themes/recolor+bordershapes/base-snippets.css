@@ -12,6 +12,13 @@ A.
 A1: Powercord plugin settings separator.
 A2: Removes the covering that appears when you have slow/loose connection or switch accounts and alerts you in the bottom right.
 A3: Better formatting rdux box.
+A4: Theme Patches,
+
+B.
+B1: avatar glow.
+
+C.
+notsoRGBbase
 
 */
 
@@ -69,22 +76,80 @@ A3: Better formatting rdux box.
 	background-color: black;
 }
 
-/**/
+/* A4 */
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile]:after {
+	-webkit-mask-size: 15%;
+	top: 35%;
+	left: 40%;
+	background-color: #f33;
+}
+* {
+	box-shadow: none !important;
+}
 
 /**/
 
 /**/
 
-/**/
+/*	B	*/
+/* B1 */
 
 /**/
 
 /**/
 
-/**/
+/*	C	*/
+/* notsoRGBname */
+@keyframes rainbow-user-text {
+	from {color: #6666ff}
+	25%  {color: #0099ff}
+	50%  {color: #00ff00}
+	75%  {color: #ff3399}
+	100% {color: #6666ff}
+}
+.message-2qnXI6[data-author-id="678541528821661696"] .username-1A8OIy {
+	animation: rainbow-user-text 1s ease-in-out infinite;
+}
 
-/**/
+/* Rainbowname */
+.message-2qnXI6[data-author-id="289530617161580544"] .username-1A8OIy {
+	background: linear-gradient( 
+		60deg, 
+		hsl(224, 85%, 66%), 
+		hsl(269, 85%, 66%), 
+		hsl(314, 85%, 66%), 
+		hsl(359, 85%, 66%), 
+		hsl(44, 85%, 66%), 
+		hsl(89, 85%, 66%), 
+		hsl(134, 85%, 66%), 
+		hsl(179, 85%, 66%) 
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+.message-2qnXI6[data-author-id="364250589552705547"] .username-1A8OIy {
+	background: linear-gradient( 
+		60deg, 
+		hsl(224, 85%, 66%), 
+		hsl(269, 85%, 66%), 
+		hsl(314, 85%, 66%), 
+		hsl(359, 85%, 66%), 
+		hsl(44, 85%, 66%), 
+		hsl(89, 85%, 66%), 
+		hsl(134, 85%, 66%), 
+		hsl(179, 85%, 66%) 
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
-/**/
-
-/**/
+/* servericons */
+[src="https://cdn.discordapp.com/icons/740478947804053596/2e452b12e67eafc171eb1dd155d354bc.webp?size=128"] {
+	height: 0px;
+	width: 0px;
+	margin-top: 20px;
+	margin-left: 50px;
+	padding: 100px;
+	background-image: url(https://media.tenor.com/images/1bd3db93ffa0a80959371c7b9fa6dab9/tenor.gif) !important;
+	background-size:50px;
+}
