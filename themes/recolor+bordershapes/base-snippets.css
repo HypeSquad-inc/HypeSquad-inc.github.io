@@ -83,6 +83,29 @@ servericons
 #app-mount .upperBadge-2XnnGB .base-PmTxvP {
 	box-shadow: none !important;
 }
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile]:after {
+  width: calc(25% + 25%);
+  height: calc(25% + 25%);
+  top: 60%;
+  left: 64%;
+  background-color: #f33; /*color, just dont mess with anything else*/
+}
+#app-mount .wrapper-3t9DeA foreignObject {
+  -webkit-mask: none;
+          mask: none;
+}
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile][width="32"] {
+  width: calc(100% + 3px);
+}
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile][width="80"] {
+  width: calc(100% + 10px);
+}
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile][width="32"] img {
+  width: 32px;
+}
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile][width="80"] img {
+  width: 80px;
+}
 
 /**/
 
