@@ -85,8 +85,9 @@ servericons
 	left: 40%;
 	background-color: #f33;
 }
-* {
-	box-shadow: none;
+#app-mount .lowerBadge-29hYVK .base-PmTxvP,
+#app-mount .upperBadge-2XnnGB .base-PmTxvP {
+	box-shadow: none !important;
 }
 
 /**/
