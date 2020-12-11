@@ -16,7 +16,8 @@ A4: Theme Patches,
 
 B.
 B1: avatar glow.
-B2: Large Reactions
+B2: mid top and bottom accent gradient.
+B3: Large Reactions
 C.
 notsoRGBname
 Rainbowname
@@ -124,6 +125,17 @@ servericons
 }
 
 /* B2 */
+body {
+	padding: 2px;
+	background: -webkit-linear-gradient(to right, #000, rgb(var(--accentcolor)), #000);
+	background: linear-gradient(to right, #000, rgb(var(--accentcolor)), #000);
+}
+#app-mount {
+	width: calc(100% - 4px);
+	height: calc(100% - 4px);
+}
+
+/* B3 */
 .reactionInner-15NvIl .emoji {
 	width: 24px !important;
 	height: 24px !important;
