@@ -18,6 +18,7 @@ B.
 B1: avatar glow.
 B2: mid top and bottom accent gradient.
 B3: Large Reactions
+B4: server scroll
 C.
 notsoRGBname
 Rainbowname
@@ -141,7 +142,32 @@ body {
 	height: 24px !important;
 }
 
-/**/
+/* B4 */
+
+.none-2Eo-qx::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+.none-2Eo-qx::-webkit-scrollbar-corner {
+	background-color: transparent;
+}
+.none-2Eo-qx::-webkit-scrollbar-thumb {
+	background-clip: padding-box;
+	border: 6px solid transparent;
+	border-radius: 0px;
+	background-color: rgb(var(--accentcolor));
+}
+.none-2Eo-qx::-webkit-scrollbar-track {
+	border-color: transparent;
+	background-color: transparent;
+	border: 6px solid transparent;
+}
+.none-2Eo-qx:hover::-webkit-scrollbar-thumb, .none-2Eo-qx:hover::-webkit-scrollbar-track {
+	visibility: visible;
+}
+.none-2Eo-qx::-webkit-scrollbar-thumb, .none-2Eo-qx::-webkit-scrollbar-track {
+	visibility: hidden;
+}
 
 /*	C	*/
 /* notsoRGBname */
@@ -179,12 +205,7 @@ body {
 
 /* servericons */
 /*id:740478947804053596*/
+.icon-3o6xvg[style*="740478947804053596"],
 .icon-27yU2q[src*="740478947804053596"] {
-	height: 0px;
-	width: 0px;
-	margin-top: 20px;
-	margin-left: 50px;
-	padding: 100px;
-	background-image: url(https://media.tenor.com/images/1bd3db93ffa0a80959371c7b9fa6dab9/tenor.gif) !important;
-	background-size:50px;
+	content: url(https://media.tenor.com/images/1bd3db93ffa0a80959371c7b9fa6dab9/tenor.gif);
 }
