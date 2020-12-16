@@ -178,15 +178,15 @@ body {
 	75%  {color: #ff3399}
 	100% {color: #6666ff}
 }
-.message-2qnXI6[user_by_bdfdb*="678541528821661696"] .username-1A8OIy,
+.message-2qnXI6[user_by_bdfdb="678541528821661696"] .username-1A8OIy,
 .message-2qnXI6[data-author-id="678541528821661696"] .username-1A8OIy {
 	animation: notsorgb-user-text 1s ease-in-out infinite;
 }
 
 /* Rainbowname */
-.message-2qnXI6[user_by_bdfdb*="289530617161580544"] .username-1A8OIy,
+.message-2qnXI6[user_by_bdfdb="289530617161580544"] .username-1A8OIy,
 .message-2qnXI6[data-author-id="289530617161580544"] .username-1A8OIy,
-.message-2qnXI6[user_by_bdfdb*="364250589552705547"] .username-1A8OIy,
+.message-2qnXI6[user_by_bdfdb="364250589552705547"] .username-1A8OIy,
 .message-2qnXI6[data-author-id="364250589552705547"] .username-1A8OIy {
 	background: linear-gradient( 
 		60deg, 
