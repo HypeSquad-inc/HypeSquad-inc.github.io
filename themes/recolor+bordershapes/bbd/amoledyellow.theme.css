@@ -1,0 +1,15 @@
+/**
+ * @name DiscordRecolor + Bordershapes Yellow
+ * @description DiscordRecolor+bordershapes by DevilBro and JayWilson merged by Kewl Sage from Hypesquad
+ * @author DevilBro, JayWilson, and kelw sage from hypesquad
+ * @version 1.0.0
+ * @source https://raw.githubusercontent.com/HypeSquad-inc/HypeSquad-inc.github.io/main/themes/recolor%2Bbordershapes/base.css
+ * @updateUrl https://raw.githubusercontent.com/HypeSquad-inc/HypeSquad-inc.github.io/main/themes/recolor%2Bbordershapes/bbd/amoledyellow.theme.css
+ */
+
+@import url(https://HypeSquad-inc.github.io/themes/recolor+bordershapes/base.css);
+
+:root {
+	--accentcolor: 188,188,0;		/*	blurple	- 	default: 114,137,218	- 	hex: #7289da */
+	--linkcolor: 188,188,0;			/*	link	- 	default: 0,176,244	- 	hex: #00b0f4 */
+}
