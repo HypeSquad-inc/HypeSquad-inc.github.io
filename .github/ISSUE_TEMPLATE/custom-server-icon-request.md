@@ -2,8 +2,8 @@
 name: Custom Server Icon Request
 about: Adding new Server Icon
 title: ''
-labels: ''
-assignees: ''
+labels: CSI-request, Pending
+assignees: KewlSage
 
 ---
 
