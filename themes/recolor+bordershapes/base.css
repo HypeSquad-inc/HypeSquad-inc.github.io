@@ -1,6 +1,7 @@
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css);
 @import url(https://jaywilson7.github.io/BorderShapes/Source/base.css);
 @import url(https://HypeSquad-inc.github.io/themes/recolor+bordershapes/base-snippets.css);
+@import url(https://HypeSquad-inc.github.io/themes/custom-server-icons-db/csi.css);
 
 :root {
 	--mentioncolor: 125,125,125;			/* yellow - 		default: 250,166,26	 - 	hex: #faa61a */
