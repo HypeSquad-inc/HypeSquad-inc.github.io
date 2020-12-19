@@ -22,7 +22,6 @@ B4: server scroll
 C.
 notsoRGBname
 Rainbowname
-servericons
 
 */
 
@@ -201,11 +200,4 @@ body {
 	);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-}
-
-/* servericons */
-/*id:740478947804053596*/
-.icon-3o6xvg[style*="740478947804053596"],
-.icon-27yU2q[src*="740478947804053596"] {
-	content: url(https://media.tenor.com/images/1bd3db93ffa0a80959371c7b9fa6dab9/tenor.gif);
 }
