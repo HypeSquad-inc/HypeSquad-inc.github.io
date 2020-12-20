@@ -174,9 +174,8 @@ body {
 		transform: rotate(360deg);
 	}
 }
-.container-3baos1 .button-14-BFJ:last-child:hover svg {
+.container-3baos1 .button-14-BFJ:last-child svg {
 	animation:rotate360 .69s /*NICE*/ linear infinite;
-	color: rgb(var(--accentcolor));
 }
 
 /*	C	*/
