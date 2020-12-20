@@ -1,11 +1,11 @@
 /*for shits and giggles*/
 
 /* Thinking � */
-.emoji[src="/assets/263a7f4eeb6f69e46d969fa479188592.svg"] {
+.emoji[src*="263a7f4eeb6f69e46d969fa479188592"] {
 	content: url(https://cdn.discordapp.com/attachments/790190011592081448/790190038083567636/unknown.png);
 }
 
 /* Sunglasses 😎 */
-.emoji[src="/assets/5f80f04e6ee97feebdd00feff92ced82.svg"] {
+.emoji[src*="5f80f04e6ee97feebdd00feff92ced82"] {
 	content: url(https://cdn.discordapp.com/attachments/790190011592081448/790207514708672542/unknown.png);
 }
