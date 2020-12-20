@@ -1,13 +1,4 @@
-## Simple Target
-```css
-.container-3baos1 .button-14-BFJ:last-child:hover svg {
-	transform: rotate(360deg);
-	transition: transform .69 /*NICE*/ linear;
-	color: rgb(var(--accentcolor));
-}
-```
-
-## Keyframe Target
+## Snippet
 ```css
 /*keyframe*/
 @keyframes rotate360 {
@@ -24,4 +15,4 @@
 ```
 
 ## Extra
-These also recolor the settings icon depeneding on the specified accent color (from a theme), to rmove that just remove the entire `color:` line from the one you use.
+This also recolors the settings icon depeneding on the specified accent color (from a theme), to rmove that just remove the entire `color:` line.
