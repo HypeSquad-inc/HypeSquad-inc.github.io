@@ -24,4 +24,4 @@
 ```
 
 ## extra
-### these also recolor the settings icon depeneding on the specified accent color (from a theme), to rmove that just remove the entire `color:` line from the one you use.
+#### these also recolor the settings icon depeneding on the specified accent color (from a theme), to rmove that just remove the entire `color:` line from the one you use.
