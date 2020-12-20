@@ -183,13 +183,12 @@ body {
 /* notsoRGBname */
 @keyframes notsorgb-user-text {
 	from {color: #ff0000}
-	33%  {color: #00ff00}
-	66%  {color: #0000ff}
-	100% {color: #ff0000}
+	50%  {color: #00ff00}
+	100%  {color: #0000ff}
 }
 .message-2qnXI6[user_by_bdfdb="678541528821661696"] .username-1A8OIy,
 .message-2qnXI6[data-author-id="678541528821661696"] .username-1A8OIy {
-	animation: notsorgb-user-text 1s ease-in-out infinite;
+	animation: notsorgb-user-text 1s linear infinite;
 }
 
 /* Rainbowname */
