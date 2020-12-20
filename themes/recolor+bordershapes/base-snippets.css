@@ -169,14 +169,10 @@ body {
 	visibility: hidden;
 }
 /* B5 */
-@keyframes rotate360 {
-	to {
-		transform: rotate(360deg);
-	}
-}
 .container-3baos1 .button-14-BFJ:last-child:hover svg {
-	animation:rotate360 .69s /*NICE*/ linear infinite;
-  color: rgb(var(--accentcolor))
+	transform: rotate(360deg);
+	transition: transform .69 /*NICE*/ linear;
+	color: rgb(var(--accentcolor));
 }
 
 /*	C	*/
