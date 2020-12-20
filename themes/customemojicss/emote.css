@@ -1,6 +1,7 @@
 /*for shits and giggles*/
+@import url(https://HypeSquad-inc.github.io/themes/customemojicss/base.css)
 
 root: {
-
-
+	--EMJ-thinking: url(https://cdn.discordapp.com/attachments/790190011592081448/790190038083567636/unknown.png)
+	--EMJ-sunglasses: url(https://cdn.discordapp.com/attachments/790190011592081448/790207514708672542/unknown.png)
 }
