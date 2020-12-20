@@ -21,7 +21,7 @@ B3: Large Reactions
 B4: server scroll
 B5: settings icon keyframe
 C.
-notsoRGBname
+RGBname
 Rainbowname
 
 */
@@ -174,12 +174,13 @@ body {
 		transform: rotate(360deg);
 	}
 }
+.iconWrapper-2OrFZ1 [aria-label="Webhook Message Sender"] svg,
 .container-3baos1 .button-14-BFJ:last-child svg {
 	animation:rotate360 3s linear infinite;
 }
 /*	C	*/
-/* notsoRGBname */
-@keyframes notsorgb-user-text {
+/* RGBname */
+@keyframes rgb-username {
 	from {color: #ff0000}
 	33% {color: #00ff00}
 	66% {color: #0000ff}
@@ -187,7 +188,7 @@ body {
 }
 .message-2qnXI6[user_by_bdfdb="678541528821661696"] .username-1A8OIy,
 .message-2qnXI6[data-author-id="678541528821661696"] .username-1A8OIy {
-	animation: notsorgb-user-text 1s linear infinite;
+	animation: rgb-username 1s linear infinite;
 }
 
 /* Rainbowname */
