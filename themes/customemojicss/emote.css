@@ -9,3 +9,13 @@
 .emoji[src*="5f80f04e6ee97feebdd00feff92ced82"] {
 	content: url(https://cdn.discordapp.com/attachments/790190011592081448/790207514708672542/unknown.png);
 }
+
+/* Rofl 🤣 */
+.emoji[src*="4c537a5536df74dcb65c6feb2ad3ab44"] {
+	content: url(https://cdn.discordapp.com/attachments/790190011592081448/790222808894144542/unknown.gif);
+}
+
+/* Lauging 😆 */
+.emoji[src*="babfa5ab2aa87f7001ac9c1f9a7d5f34"] {
+	content: url(https://cdn.discordapp.com/attachments/790190011592081448/790223888746676234/unknown.png);
+}
