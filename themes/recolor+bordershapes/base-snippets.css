@@ -12,13 +12,14 @@ A.
 A1: Powercord plugin settings separator.
 A2: Removes the covering that appears when you have slow/loose connection or switch accounts and alerts you in the bottom right.
 A3: Better formatting rdux box.
-A4: Theme Patches,
+A4: Theme Patches.
 
 B.
 B1: avatar glow.
 B2: mid top and bottom accent gradient.
 B3: Large Reactions
 B4: server scroll
+B5: settings icon keyframe
 C.
 notsoRGBname
 Rainbowname
@@ -167,15 +168,24 @@ body {
 .none-2Eo-qx::-webkit-scrollbar-thumb, .none-2Eo-qx::-webkit-scrollbar-track {
 	visibility: hidden;
 }
+/* B5 */
+@keyframes rotate360 {
+	to {
+		transform: rotate(360deg);
+	}
+}
+.container-3baos1 .button-14-BFJ:last-child:hover svg {
+	animation:rotate360 .69s /*NICE*/ linear infinite;
+  color: rgb(var(--accentcolor))
+}
 
 /*	C	*/
 /* notsoRGBname */
 @keyframes notsorgb-user-text {
-	from {color: #6666ff}
-	25%  {color: #0099ff}
-	50%  {color: #00ff00}
-	75%  {color: #ff3399}
-	100% {color: #6666ff}
+	from {color: #ff0000}
+	33%  {color: #00ff00}
+	66%  {color: #0000ff}
+	100% {color: #ff0000}
 }
 .message-2qnXI6[user_by_bdfdb="678541528821661696"] .username-1A8OIy,
 .message-2qnXI6[data-author-id="678541528821661696"] .username-1A8OIy {
