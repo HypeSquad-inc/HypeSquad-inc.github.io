@@ -128,8 +128,8 @@ Rainbowname
 /* B2 */
 body {
 	padding: 2px;
-	background: -webkit-linear-gradient(to right, #000, rgb(var(--accentcolor)), #000);
-	background: linear-gradient(to right, #000, rgb(var(--accentcolor)), #000);
+	background: -webkit-linear-gradient(to right, #000, #000, rgb(var(--accentcolor)), #000, #000);
+	background: linear-gradient(to right, #000, #000, rgb(var(--accentcolor)), #000, #000);
 }
 #app-mount {
 	width: calc(100% - 4px);
