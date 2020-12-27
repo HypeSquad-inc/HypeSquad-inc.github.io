@@ -192,6 +192,7 @@ body {
 	font-weight: 700;
 	white-space: nowrap;
 	font-family: "Discord-Sans";
+	color: rgb(var(--accentcolor))
 }
 .wordmark-2iDDfm svg {
 	display:none;
