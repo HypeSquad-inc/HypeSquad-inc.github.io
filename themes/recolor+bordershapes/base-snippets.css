@@ -13,6 +13,7 @@ A1: Powercord plugin settings separator.
 A2: Removes the covering that appears when you have slow/loose connection or switch accounts and alerts you in the bottom right.
 A3: Better formatting rdux box.
 A4: Theme Patches.
+A5: blinding popout fix
 
 B.
 B1: avatar glow.
@@ -109,7 +110,13 @@ Rainbowname
 	width: 80px;
 }
 
-/**/
+/* A5 */
+.headerSpotify-zpWxgT,
+.topSectionSpotify-1lI0-P,
+.headerPlaying-j0WQBV,
+.topSectionPlaying-1J5E4n {
+	background-color: rgb(28, 28, 28);
+}
 
 /**/
 
