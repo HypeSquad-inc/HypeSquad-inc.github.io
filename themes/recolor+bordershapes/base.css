@@ -86,6 +86,7 @@ html:only-child > head + body > div#app-mount.appMount-3lHmkl > div.app-1q1i1E >
 	content: "" !important;
 }
 div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child div:last-child::after {
-	content: "========================\nDiscordRecolor+bordershapes by DevilBro and JayWilson merged by Kewl Sage from Hypesquad";
+	content: "========================\
+DiscordRecolor+bordershapes by DevilBro and JayWilson merged by Kewl Sage from Hypesquad";
 	display: block;
 }
