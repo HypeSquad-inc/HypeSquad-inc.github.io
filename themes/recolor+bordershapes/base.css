@@ -79,11 +79,11 @@
 	--status-color-dnd: #f04747; /*Color for "Do Not Disturb" statuses. Default - #f04747*/
 	--status-color-streaming: #593695; /*Color for "Streaming" statuses. Default - #593695*/
 	--status-color-offline: #747f8d; /*Color for "Offline" statuses. Default - #747f8d*/
-	--status-color-activity-online: #fff; /*Color for "Online" statuses on activity background. Default - #fff*/
-	--status-color-activity-idle: #fff; /*Color for "Idle" statuses on activity background. Default - #fff*/
-	--status-color-activity-dnd: #fff; /*Color for "Do Not Disturb" statuses on activity background. Default - #fff*/
-	--status-color-activity-streaming: #fff; /*Color for "Streaming" statuses on activity background. Default - #fff*/
-	--status-color-activity-offline: #fff; /*Color for "Offline" statuses on activity background. Default - #fff*/
+	--status-color-activity-online: #43b581; /*Color for "Online" statuses on activity background. Default - #fff*/
+	--status-color-activity-idle: #faa61a; /*Color for "Idle" statuses on activity background. Default - #fff*/
+	--status-color-activity-dnd: #f04747; /*Color for "Do Not Disturb" statuses on activity background. Default - #fff*/
+	--status-color-activity-streaming: #593695; /*Color for "Streaming" statuses on activity background. Default - #fff*/
+	--status-color-activity-offline: #747f8d; /*Color for "Offline" statuses on activity background. Default - #fff*/
 	--status-mobile-icon-display: visible; /*Display mode for "Online via Mobile" status icon. visible to show, none to hide*/
 	--borders-color-primary: var(--background-primary); /*Borders color for elements on primary background. Default - var(--background-primary)*/
 	--borders-color-secondary: var(--background-secondary); /*Borders color for elements on secondary background. Default - var(--background-secondary)*/
