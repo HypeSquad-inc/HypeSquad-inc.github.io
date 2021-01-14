@@ -1,0 +1,11 @@
+@import url(https://HypeSquad-inc.github.io/themes/recolor+bordershapes/base.css);
+
+:root {
+	--accentcolor: 0,153,0;		/*	blurple	- 	default: 114,137,218	- 	hex: #7289da */
+	--linkcolor: 0,153,0;			/*	link	- 	default: 0,176,244	- 	hex: #00b0f4 */
+}
+
+.listItem-2P_4kh:nth-child(1) .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx:hover .childWrapper-anI2G9 .homeIcon-tEMBK1,
+.listItem-2P_4kh:nth-child(1) .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 .homeIcon-tEMBK1 {
+	color: #000000
+}
