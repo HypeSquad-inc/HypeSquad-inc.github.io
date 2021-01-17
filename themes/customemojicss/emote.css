@@ -21,7 +21,7 @@
 }
 
 /* Nerd 🤓 */
-.emojiSpriteImage-TcJnG8[style*="d234cfa374e30dab3650f8531d00fbfd"]:not(:hover)
+.emojiSpriteImage-TcJnG8[style*="d234cfa374e30dab3650f8531d00fbfd"]:not(:hover),
 .emoji[src*="c61131c53f9986ac8808d592c3019a7a"] {
 	content: url(https://raw.githubusercontent.com/HypeSquad-inc/HypeSquad-inc.github.io/main/themes/customemojicss/emotes/nerd/emote.png)
 }
