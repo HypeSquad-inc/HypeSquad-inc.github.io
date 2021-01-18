@@ -252,10 +252,10 @@ font-size: 12px;
 }
 
 /* Rainbowname */
-.message-2qnXI6[user_by_bdfdb="289530617161580544"] .username-1A8OIy,
-.message-2qnXI6[data-author-id="289530617161580544"] .username-1A8OIy,
-.message-2qnXI6[user_by_bdfdb="364250589552705547"] .username-1A8OIy,
-.message-2qnXI6[data-author-id="364250589552705547"] .username-1A8OIy {
+.message-2qnXI6[user_by_bdfdb="289530617161580544"]:not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[data-author-id="289530617161580544"]:not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[user_by_bdfdb="364250589552705547"]:not(.repliedMessage-VokQwo) .username-1A8OIy,
+.message-2qnXI6[data-author-id="364250589552705547"]:not(.repliedMessage-VokQwo) .username-1A8OIy {
 	background: linear-gradient( 
 		60deg, 
 		hsl(224, 85%, 66%), 
