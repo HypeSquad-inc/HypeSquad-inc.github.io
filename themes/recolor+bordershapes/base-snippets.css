@@ -13,7 +13,9 @@ A1: Powercord plugin settings separator.
 A2: Removes the covering that appears when you have slow/loose connection or switch accounts and alerts you in the bottom right.
 A3: Better formatting rdux box.
 A4: Theme Patches.
-A5: blinding popout fix
+A5: blinding popout fix.
+A6: devilbro date plugins selcetable.
+A7: borders for uploads and servers
 
 B.
 B1: avatar glow.
@@ -22,7 +24,7 @@ B3: Large Reactions.
 B4: server scroll.
 B5: settings icon keyframe.
 B6: Custom Wordmark.
-B7: that was fucking gay meme
+B7: that was fucking gay meme.
 C.
 RGBname
 Rainbowname
@@ -119,8 +121,22 @@ Rainbowname
 	background-color: rgb(28, 28, 28);
 }
 
-/**/
+/* A6 */
+.lastMessageDate-ocEw13,
+.joinedAtDate-IawR02,
+.creationDate-CJwdKT {
+	user-select: text !important;
+}
 
+/* A7 */
+.imageWrapper-2p5ogY,
+.wrapper-35wsBm,
+.wrapperAudio-1jDe0Q,
+.attachment-33OFj0 {
+	border-style: ridge;
+	border-width: 2px;
+	border-color: rgb(var(--accentcolor)) !important;
+}
 /*	B	*/
 /* B1 */
 .avatar-1BDn8e.clickable-1bVtEA { 
