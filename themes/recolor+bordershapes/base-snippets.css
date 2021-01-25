@@ -261,26 +261,25 @@ body {
 	66% {color: #0000ff}
 	100% {color: #ff0000}
 }
+.message-2qnXI6[user_by_bdfdb="289530617161580544"] .username-1A8OIy:not(.repliedMessage-VokQwo),
+.message-2qnXI6[data-author-id="289530617161580544"] .username-1A8OIy:not(.repliedMessage-VokQwo),
 .message-2qnXI6[user_by_bdfdb="678541528821661696"] .username-1A8OIy:not(.repliedMessage-VokQwo),
 .message-2qnXI6[data-author-id="678541528821661696"] .username-1A8OIy:not(.repliedMessage-VokQwo) {
 	animation: rgb-username 1s linear infinite;
 }
 
 /* Rainbowname */
-.message-2qnXI6[user_by_bdfdb="289530617161580544"] .username-1A8OIy:not(.repliedMessage-VokQwo),
-.message-2qnXI6[data-author-id="289530617161580544"] .username-1A8OIy:not(.repliedMessage-VokQwo),
 .message-2qnXI6[user_by_bdfdb="364250589552705547"] .username-1A8OIy:not(.repliedMessage-VokQwo),
 .message-2qnXI6[data-author-id="364250589552705547"] .username-1A8OIy:not(.repliedMessage-VokQwo) {
 	background: linear-gradient( 
 		60deg, 
-		hsl(224, 85%, 66%), 
-		hsl(269, 85%, 66%), 
-		hsl(314, 85%, 66%), 
-		hsl(359, 85%, 66%), 
-		hsl(44, 85%, 66%), 
-		hsl(89, 85%, 66%), 
-		hsl(134, 85%, 66%), 
-		hsl(179, 85%, 66%) 
+		rgb(255,0,0), 
+		rgb(255,165,0),
+		rgb(255,255,0),
+		rgb(0,128,0),
+		rgb(0,0,255),
+		rgb(75,0,130),
+		rgb(238,130,238)
 	);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
