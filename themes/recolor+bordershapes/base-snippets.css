@@ -90,7 +90,28 @@ Rainbowname
 #app-mount .upperBadge-2XnnGB .base-PmTxvP {
 	box-shadow: none !important;
 }
-
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile]:after {
+	width: calc(25% + 25%);
+	height: calc(25% + 25%);
+	top: 60%;
+	left: 64%;
+}
+#app-mount .wrapper-3t9DeA foreignObject {
+	-webkit-mask: none;
+	mask: none;
+}
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile][width="32"] {
+	width: calc(100% + 3px);
+}
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile][width="32"] img {
+	width: 32px;
+}
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile][width="80"] {
+	width: calc(100% + 10px);
+}
+#app-mount .wrapper-3t9DeA foreignObject[mask*=mobile][width="80"] img {
+	width: 80px;
+}
 /* A5 */
 .headerSpotify-zpWxgT,
 .topSectionSpotify-1lI0-P,
@@ -207,29 +228,29 @@ body {
 /* B7 */
 /*Hide the original file size was too big text*/
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y {
-font-size: 0px;
+	font-size: 0px;
 }
 /*Replace the text with the first half "That was" but no bold*/
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y:before {
-content: 'That was';
-font-size: 22px;
-font-weight: normal;
+	content: 'That was';
+	font-size: 22px;
+	font-weight: normal;
 }
 /*Add the second half with italics*/
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .title-2Vtl4y:after {
-content: ' fucking gay';
-font-size: 22px;
-font-style: italic;
+	content: ' fucking gay';
+	font-size: 22px;
+	font-style: italic;
 }
 /*Hide the original file size limit text, also make the width a little smaller*/
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG {
-font-size: 0px;
-width: 180px;
+	font-size: 0px;
+	width: 180px;
 }
 /*Replace the text with the funny*/
 .uploadModalIn-1z07Bv .uploadDropModal-2kTwbc .inner-3nWsbo .instructions-2Du9gG:after {
-content: "Don't ever post that bullshit again you fucking degenerate";
-font-size: 12px;
+	content: "Don't ever post that bullshit again you fucking degenerate";
+	font-size: 12px;
 }
 
 /*	C	*/
