@@ -261,8 +261,6 @@ body {
 	66% {color: #0000ff}
 	100% {color: #ff0000}
 }
-.message-2qnXI6[user_by_bdfdb="289530617161580544"] .username-1A8OIy:not(.repliedMessage-VokQwo),
-.message-2qnXI6[data-author-id="289530617161580544"] .username-1A8OIy:not(.repliedMessage-VokQwo),
 .message-2qnXI6[user_by_bdfdb="678541528821661696"] .username-1A8OIy:not(.repliedMessage-VokQwo),
 .message-2qnXI6[data-author-id="678541528821661696"] .username-1A8OIy:not(.repliedMessage-VokQwo) {
 	animation: rgb-username 1s linear infinite;
