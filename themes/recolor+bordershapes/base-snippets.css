@@ -128,10 +128,10 @@ Rainbowname
 }
 
 /* A7 */
-.imageWrapper-2p5ogY,
-.wrapper-35wsBm,
-.wrapperAudio-1jDe0Q,
-.attachment-33OFj0 {
+:not(.vz-dashboard) .imageWrapper-2p5ogY,
+:not(.vz-dashboard) .wrapper-35wsBm,
+:not(.vz-dashboard) .wrapperAudio-1jDe0Q,
+:not(.vz-dashboard) .attachment-33OFj0 {
 	border-style: ridge;
 	border-width: 2px;
 	border-color: rgb(var(--accentcolor)) !important;
