@@ -129,7 +129,7 @@ Bot style user tags
 }
 
 /* A7 */
-.imageWrapper-2p5ogY:not(.vz-addon-card-icon-image-wrapper):not(.vz-image-wrapper),
+:not(.vz-commands-autocomplete) .imageWrapper-2p5ogY:not(.vz-addon-card-icon-image-wrapper):not(.vz-image-wrapper),
 .wrapper-35wsBm,
 .wrapperAudio-1jDe0Q,
 .attachment-33OFj0 {
