@@ -128,10 +128,10 @@ Rainbowname
 }
 
 /* A7 */
-#chat-messages .imageWrapper-2p5ogY,
-#chat-messages .wrapper-35wsBm,
-#chat-messages .wrapperAudio-1jDe0Q,
-#chat-messages .attachment-33OFj0 {
+.imageWrapper-2p5ogY:not(.vz-addon-card-icon-image-wrapper):not(.vz-image-wrapper),
+.wrapper-35wsBm,
+.wrapperAudio-1jDe0Q,
+.attachment-33OFj0 {
 	border-style: ridge;
 	border-width: 2px;
 	border-color: rgb(var(--accentcolor)) !important;
