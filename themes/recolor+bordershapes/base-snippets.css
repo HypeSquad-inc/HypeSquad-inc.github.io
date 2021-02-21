@@ -276,7 +276,31 @@ body {
 }
 
 /* Rainbowname */
-
+.avatar-1BDn8e[src*="364250589552705547"] + h2 .username-1A8OIy,
+.message-2qnXI6[user_by_bdfdb="364250589552705547"] .contents-2mQqc9 .username-1A8OIy,
+.message-2qnXI6[data-author-id="364250589552705547"] .contents-2mQqc9 .username-1A8OIy,
+.message-2qnXI6[vz-user-id="364250589552705547"] .contents-2mQqc9 .username-1A8OIy,
+.repliedMessage-VokQwo [src*="364250589552705547"] + .username-1A8OIy {
+	background: linear-gradient( 
+		60deg, 
+		rgb(255,0,0), 
+		rgb(255,165,0),
+		rgb(255,255,0),
+		rgb(0,128,0),
+		rgb(0,0,255),
+		rgb(75,0,130),
+		rgb(238,130,238),/*
+		after this is conditional */
+		rgb(255,255,255), 
+		rgb(255,255,255),
+		rgb(255,255,255),
+		rgb(255,255,255),
+		rgb(255,255,255),
+		rgb(255,255,255)
+	);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
 
 /* Bot style user tags */
 
