@@ -361,3 +361,34 @@ body {
 	-webkit-background-clip: rgb(var(--accentcolor));
 	-webkit-text-fill-color: white;
 }
+[src*="364250589552705547"] + h2 .timestamp-3ZCmNB::before,
+[user_by_bdfdb="364250589552705547"] .contents-2mQqc9 .timestamp-3ZCmNB::before,
+[data-author-id="364250589552705547"] .contents-2mQqc9 .timestamp-3ZCmNB::before,
+[vz-user-id="364250589552705547"] .contents-2mQqc9 .timestamp-3ZCmNB::before,
+.repliedMessage-VokQwo [src*="364250589552705547"] ~ .repliedTextPreview-2NBljf::before {
+	content: "Smol Woman";
+	background: rgb(var(--accentcolor));
+	text-transform: uppercase;
+	padding: .072rem .275rem;
+	border-radius: var(--borders-labels-small);
+	display: inline-block;
+	margin-left: .25rem;
+	position: relative;
+	top: 3px;
+	right: 4px;
+	height: 1.25em;
+	line-height: 1.3;
+	font-size: .625em;
+	font-weight: 500;
+	color: white !important;
+	text-decoration: none !important;
+	-webkit-background-clip: rgb(var(--accentcolor));
+	-webkit-text-fill-color: white;
+}
+.repliedMessage-VokQwo [src*="364250589552705547"] ~ .repliedTextPreview-2NBljf {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.repliedMessage-VokQwo [src*="364250589552705547"] ~ .repliedTextPreview-2NBljf::before {
+	opacity: 0.6;
+}
