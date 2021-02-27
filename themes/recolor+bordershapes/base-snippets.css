@@ -349,13 +349,23 @@ body {
 	display: inline-block;
 	margin-left: .25rem;
 	position: relative;
-	top: 2px;
-	height: 1.28em;
+	top: 3px;
+	right: 4px;
+	height: 1.25em;
 	line-height: 1.3;
 	font-size: .625em;
 	font-weight: 500;
 	color: white !important;
 	text-decoration: none !important;
+	-webkit-background-clip: rgb(var(--accentcolor));
+	-webkit-text-fill-color: white;
+}
+.repliedMessage-VokQwo [src*="289530617161580544"] ~ .repliedTextPreview-2NBljf {
+  display: flex !important;
+  flex-direction: row !important;
+}
+.repliedMessage-VokQwo [src*="289530617161580544"] ~ .repliedTextPreview-2NBljf::before {
+	opacity: 0.6;
 }
 
 [src*="364250589552705547"] + h2 .username-1A8OIy::after,
