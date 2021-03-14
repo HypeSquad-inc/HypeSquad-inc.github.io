@@ -152,8 +152,10 @@ Bot style user tags
 /* B2 */
 body {
 	padding: 2px;
-	background: -webkit-linear-gradient(to right, #000, #000, rgb(var(--accentcolor)), #000, #000);
-	background: linear-gradient(to right, #000, #000, rgb(var(--accentcolor)), #000, #000);
+	background: -webkit-linear-gradient( 60deg, rgb(255,0,0), rgb(255,165,0), rgb(255,255,0), rgb(0,128,0), rgb(0,0,255), rgb(75,0,130), rgb(238,130,238));
+	background: linear-gradient( 60deg, rgb(255,0,0), rgb(255,165,0), rgb(255,255,0), rgb(0,128,0), rgb(0,0,255), rgb(75,0,130), rgb(238,130,238));
+	background-size: 1000% 600%;
+	animation: kewl-sage 25s ease-in-out infinite;
 }
 #app-mount {
 	width: calc(100% - 4px);
