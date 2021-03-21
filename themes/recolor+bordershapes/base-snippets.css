@@ -335,8 +335,7 @@ body {
 [src*="289530617161580544"] + .header-23xsNx .headerText-3Uvj1Y::after,
 [user_by_bdfdb="289530617161580544"] .contents-2mQqc9 .header-23xsNx .headerText-3Uvj1Y::after,
 [data-author-id="289530617161580544"] .contents-2mQqc9 .header-23xsNx .headerText-3Uvj1Y::after,
-[vz-user-id="289530617161580544"] .contents-2mQqc9 .header-23xsNx .headerText-3Uvj1Y::after,
-.repliedMessage-VokQwo:has([src*="364250589552705547"]) .repliedTextPreview-2NBljf::before {
+[vz-user-id="289530617161580544"] .contents-2mQqc9 .header-23xsNx .headerText-3Uvj1Y::after {
 	content: "Daddy";
 	background: rgb(var(--accentcolor));
 	text-transform: uppercase;
@@ -364,12 +363,10 @@ body {
 	opacity: 0.6;
 }
 
-
 [src*="364250589552705547"] + .header-23xsNx .headerText-3Uvj1Y::after,
 [user_by_bdfdb="364250589552705547"] .contents-2mQqc9 .headerText-3Uvj1Y::after,
 [data-author-id="364250589552705547"] .contents-2mQqc9 .headerText-3Uvj1Y::after,
-[vz-user-id="364250589552705547"] .contents-2mQqc9 .headerText-3Uvj1Y::after,
-.repliedMessage-VokQwo:has([src*="364250589552705547"]) .repliedTextPreview-2NBljf::before {
+[vz-user-id="364250589552705547"] .contents-2mQqc9 .headerText-3Uvj1Y::after {
 	content: "Sexy Woman";
 	background: rgb(var(--accentcolor));
 	text-transform: uppercase;
@@ -388,11 +385,11 @@ body {
 	-webkit-background-clip: rgb(var(--accentcolor));
 	-webkit-text-fill-color: white;
 }
+
 [src*="364250589552705547"] + .header-23xsNx .timestamp-3ZCmNB::before,
 [user_by_bdfdb="364250589552705547"] .contents-2mQqc9 .header-23xsNx .timestamp-3ZCmNB::before,
 [data-author-id="364250589552705547"] .contents-2mQqc9 .header-23xsNx .timestamp-3ZCmNB::before,
-[vz-user-id="364250589552705547"] .contents-2mQqc9 .header-23xsNx .timestamp-3ZCmNB::before,
-.repliedMessage-VokQwo:has([src*="364250589552705547"]) .repliedTextContent-1R3vnK::before {
+[vz-user-id="364250589552705547"] .contents-2mQqc9 .header-23xsNx .timestamp-3ZCmNB::before {
 	content: "Smol Woman";
 	background: rgb(var(--accentcolor));
 	text-transform: uppercase;
