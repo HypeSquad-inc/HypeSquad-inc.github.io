@@ -312,14 +312,7 @@ body {
 		rgb(0,128,0),
 		rgb(0,0,255),
 		rgb(75,0,130),
-		rgb(238,130,238),/*
-		after this is conditional */
-		rgb(255,255,255), 
-		rgb(255,255,255),
-		rgb(255,255,255),
-		rgb(255,255,255),
-		rgb(255,255,255),
-		rgb(255,255,255)
+		rgb(238,130,238)
 	);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -343,14 +336,14 @@ body {
 [user_by_bdfdb="289530617161580544"] .contents-2mQqc9 .header-23xsNx .headerText-3Uvj1Y::after,
 [data-author-id="289530617161580544"] .contents-2mQqc9 .header-23xsNx .headerText-3Uvj1Y::after,
 [vz-user-id="289530617161580544"] .contents-2mQqc9 .header-23xsNx .headerText-3Uvj1Y::after,
-.repliedMessage-VokQwo [src*="289530617161580544"] ~ .repliedTextPreview-2NBljf::before {
+.repliedMessage-VokQwo:has([src*="364250589552705547"]) .repliedTextPreview-2NBljf::before {
 	content: "Daddy";
 	background: rgb(var(--accentcolor));
 	text-transform: uppercase;
 	padding: .072rem .275rem;
 	border-radius: var(--borders-labels-small);
 	display: inline-block;
-	margin-left: .25rem;
+	margin-left: 10px;
 	position: relative;
 	top: 3px;
 	right: 4px;
@@ -376,14 +369,14 @@ body {
 [user_by_bdfdb="364250589552705547"] .contents-2mQqc9 .headerText-3Uvj1Y::after,
 [data-author-id="364250589552705547"] .contents-2mQqc9 .headerText-3Uvj1Y::after,
 [vz-user-id="364250589552705547"] .contents-2mQqc9 .headerText-3Uvj1Y::after,
-.repliedMessage-VokQwo [src*="364250589552705547"] + .repliedTextPreview-2NBljf::before {
+.repliedMessage-VokQwo:has([src*="364250589552705547"]) .repliedTextPreview-2NBljf::before {
 	content: "Sexy Woman";
 	background: rgb(var(--accentcolor));
 	text-transform: uppercase;
 	padding: .072rem .275rem;
 	border-radius: var(--borders-labels-small);
 	display: inline-block;
-	margin-left: .25rem;
+	margin-left: 10px;
 	position: relative;
 	top: 2px;
 	height: 1.28em;
@@ -399,7 +392,7 @@ body {
 [user_by_bdfdb="364250589552705547"] .contents-2mQqc9 .header-23xsNx .timestamp-3ZCmNB::before,
 [data-author-id="364250589552705547"] .contents-2mQqc9 .header-23xsNx .timestamp-3ZCmNB::before,
 [vz-user-id="364250589552705547"] .contents-2mQqc9 .header-23xsNx .timestamp-3ZCmNB::before,
-.repliedMessage-VokQwo [src*="364250589552705547"] ~ .repliedTextContent-1R3vnK::before {
+.repliedMessage-VokQwo:has([src*="364250589552705547"]) .repliedTextContent-1R3vnK::before {
 	content: "Smol Woman";
 	background: rgb(var(--accentcolor));
 	text-transform: uppercase;
